@@ -13,7 +13,7 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Aut
 public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdapter {
 
     @Autowired
-    @Qualifier("authanticationManger")
+    @Qualifier("authenticationManger")
     private AuthenticationManager authenticationManager;
 
 
